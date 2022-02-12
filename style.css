@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@700&family=Mukta:wght@700&family=Shadows+Into+Light&display=swap');
+
+
+:root{
+    --logo-color:rgb(162, 169, 175);
+    --main-color:rgb(10,0,0);
+    --shadow-color:rgb(94, 0, 0);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-width: 100%;
+    z-index: 999;
+    background: var(--main-color);
+    position: fixed;
+    margin-top: 0;
+}
+
+
+#nav-brand{
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-decoration: line-through;
+    color: var(--logo-color);
+    text-shadow: 3px 3px 3px rgb(94, 0, 0);
+
+}
+
+
+#nav-link{
+    font-size: 1.1rem;
+    color: var(--logo-color);
+}
+
+#nav-link:hover{
+    color: aliceblue;
+    
+}
+
+#navbar-toggler{
+    color: var(--logo-color);
+    font-size: 2rem;
+    background: var(--logo-color);
+     font-weight: 800; 
+}
+main {
+    position: relative;
+}
+#home{
+    height: 650vh;
+    padding: 100px 0 30px 0;
+}
+#carousel-img{
+    width: 80%;
+    height: 80%;
+}
+
+.carousel-tag{
+    font-size: 3rem;
+    color: var(--main-color);
+    text-shadow: 1px 1px 2px var(--shadow-color) ;
+}
+.carousel-sub{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.buy-btn{
+    background: var(--main-color);
+    color: var(--logo-color);
+    font-size: 1.1rem;
+    padding: 8px 40px 8px 40px;
+    font-weight: 700;
+    border: 2px solid var(--main-color);
+    transition: all 0/5s ease;
+    
+}
+
+.buy-btn:hover{
+    box-shadow: 3px 3px 6px var(--shadow-color);
+    color: var(--main-color);
+    background: var(--logo-color);
+}
